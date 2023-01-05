@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
+//annotations obrigatorias para criação da annotation customizada
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Configuration
